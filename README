@@ -1,3 +1,6 @@
+Note: This library will not be useful as the api on isbn.net.in is not json any more, it's an html page which keeps refreshing periodically so that it's background queues update it's view with latest prices. So we can't even do web scraping! :-(
+
+
 This library is a simple interface for isbn.net.in.
 For ex : Please have a look at test.js file.
 The library is built using nodejs event emitter. So all the function calls are asynchronous.
